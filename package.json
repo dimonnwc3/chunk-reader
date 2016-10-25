@@ -1,0 +1,26 @@
+{
+  "name": "chunk-reader",
+  "version": "1.0.0",
+  "description": "Read chunks from a file by delimiter and do some work async",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimonnwc3/chunk-reader.git"
+  },
+  "dependencies": {
+    "mz": "^2.4.0"
+  },
+  "keywords": [
+    "block",
+    "chunk",
+    "read",
+    "reader",
+    "bytes"
+  ],
+  "author": "Dmitrii Solovev",
+  "email" : "dimonnwc3@gmail.com",
+  "license": "GPLv3"
+}
