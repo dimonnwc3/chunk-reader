@@ -48,8 +48,9 @@ Create a new ChunkReader instance.
 | --- | --- | --- |
 | [options] | <code>Object</code> |  |
 | [options.path] | <code>String</code> | Path to file; |
-| [options.delimiter] | <code>String</code> | Chunk delimiter; |
+| [options.delimiter] | <code>String</code> | Chunk delimiter (optional). EOL by default; |
 | [options.mapper] | <code>Function</code> | Mapper function (optional); |
+| [options.bytesToRead] | <code>Number</code> | how many bytes are read into memory (optional). 65000 by default; |
 
 ### ChunkReader
 
