@@ -2,7 +2,7 @@
 
 > Read chunks from a file by delimiter and do some work async.
 
-> This module uses async await. Currently this feature available in Node.js v7 only with --harmony flag.
+> This module uses async await. Currently this feature available in Node.js > v7.6 or in Node.js > v7 only with --harmony flag.
 
 ### Install
 
