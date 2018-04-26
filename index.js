@@ -1,2 +1,1 @@
-'use strict';
-module.exports = require('./lib/ChunkReader');
+module.exports = require("./lib/reader")
