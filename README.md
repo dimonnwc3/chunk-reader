@@ -16,7 +16,7 @@ yarn add chunk-reader
 
 ```javascript
 const createReader = require("chunk-reader")
-const fsPromses = require("fs/promises")
+const fsPromses = require("fs").promises
 const fs = require("fs")
 
 async function main() {
